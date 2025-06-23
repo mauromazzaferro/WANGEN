@@ -1,3 +1,11 @@
+# Personal WANGEN Now you have:
+Your own repository at https://github.com/mauromazzaferro/WANGEN as your "origin"
+The original repository at https://github.com/deepbeepmeep/Wan2GP.git as "upstream"
+You can now:
+Get updates from the original repo using: git pull upstream main
+Push your own changes to your repo using: git push origin main
+Your repository should now be accessible at https://github.com/mauromazzaferro/WANGEN with all the code and history intact!
+
 # WanGP
 
 -----
