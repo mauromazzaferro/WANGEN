@@ -1,10 +1,40 @@
-# Personal WANGEN Now you have:
-Your own repository at https://github.com/mauromazzaferro/WANGEN as your "origin"
-The original repository at https://github.com/deepbeepmeep/Wan2GP.git as "upstream"
-You can now:
-Get updates from the original repo using: git pull upstream main
-Push your own changes to your repo using: git push origin main
-Your repository should now be accessible at https://github.com/mauromazzaferro/WANGEN with all the code and history intact!
+# WANGEN
+
+A personal fork of a video generation project, customized for my own use.
+
+## Repository Structure
+
+This repository is set up as follows:
+- Your repository (origin): https://github.com/mauromazzaferro/WANGEN
+- Upstream repository: https://github.com/deepbeepmeep/Wan2GP.git
+
+## Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/mauromazzaferro/WANGEN.git
+cd WANGEN
+
+# Create and activate conda environment
+conda create -n wan2gp python=3.10.9
+conda activate wan2gp
+
+# Install dependencies
+pip install torch==2.7.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/test/cu124
+pip install -r requirements.txt
+
+# Run the application
+python wgp.py --share
+```
+
+## Documentation
+
+- [Terms of Service](docs/TERMS_OF_SERVICE.md)
+- [Privacy Policy](docs/PRIVACY_POLICY.md)
+
+## Legal
+
+This is a personal fork for research and educational purposes. Please refer to the Terms of Service and Privacy Policy for usage guidelines.
 
 # WanGP
 
